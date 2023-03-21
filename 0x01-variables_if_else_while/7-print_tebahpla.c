@@ -3,15 +3,15 @@
  * main - Entry
  * Return: 0
  */
+
 int main(void)
 {
-	int n = 122;
+	char i;
 
-	while (n >= 97)
+	for (i = 'z' ; i >= 'a' ; i--)
 	{
-		putchar(n);
-		n--;
+		putchar(i);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
