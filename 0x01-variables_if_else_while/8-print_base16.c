@@ -6,13 +6,22 @@
 
 int main(void)
 {
-	int i;
-	char j;
+	char c;
 
-	for (i = 0 ; i < 10 ; i++)
-		puthar(i + '0');
-	for (j = 'a' ; j <= 'f' ; j++)
-		putchar(j);
-	putchar('\n')
+	int d;
+
+	c = 'a';
+	d = 0;
+	while (d < 10)
+	{
+		putchar(d + '0');
+		d++;
+	}
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++
+	}
+	putchar('\n');
 	return (0);
 }
